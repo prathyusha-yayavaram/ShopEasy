@@ -1,0 +1,432 @@
+
+.thumbnail {
+	width: 250px;
+	height: 240px;
+}
+
+.image {
+	width: 100%;
+	height: 100%;  
+	background-color: #f5d6eb;
+	-webkit-box-shadow: 21px 18px 31px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 21px 18px 31px -8px rgba(0,0,0,0.75);
+	box-shadow: 21px 18px 31px -8px rgba(0,0,0,0.75);
+}
+
+.image img {
+
+	transition: all 0.5s ease;
+	
+}
+
+.image:hover img {
+
+
+	transform:scale(1.1);
+}
+
+.pattern{
+	background:white;
+	background-image: url("bgpattern7.png");
+	background-attachment: fixed;
+    }
+
+.h{ color: white; font-family: 'Verdana', cursive; font-size: 50px; font-weight: normal; line-height: 30px; margin: 0 0 20px; text-align: left; text-shadow: 1px 1px 2px #082b34; padding: 12px 20px;}
+
+
+div.searchbox{
+	border: 1px solid;
+	border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+	outline: 5px solid #eff4f7;
+	display:inline;
+	margin-left: 3%;
+}
+	ul.b{padding:0;
+		margin:0}
+	li.b{display:inline;
+		position:relative}
+	ul.b ul.b{position:absolute;
+		display:none;
+		left:0;
+		top:100%}
+	li.b:hover ul.b{display:block;
+		position:absolute;
+		margin-left: 10%;}
+
+	ul.a{padding:35;
+		margin:0;
+		border:5px solid #DCDCDC;
+		border-radius:5px;
+		float:left;
+		line-height:50px;
+		background-color:black;
+		white-space:nowrap;
+		position:fixed;
+		top:220;}
+	li.a{display:block;
+		position:relative;
+		list-style:none}
+	ul.a ul.a{position:absolute;
+		display:none;
+		left:54px;
+		top:0}
+	li.a:hover ul.a{display:block;
+		position:absolute;
+		margin-left:3%;}
+	a{text-decoration:none;
+		color:#DCDCDC}
+
+
+
+	body.x{
+		font: 13px/20px  Tahoma, Verdana, sans-serif;
+		color: #404040;
+		background:white;
+	    background-image: url("Login.jpg");
+	    background-attachment: fixed;
+	}
+
+	.container {
+		margin: 80px auto;
+		width: 640px;
+	}
+
+	.login {
+		position: relative;
+		margin: 0 auto;
+		padding: 20px 20px 20px;
+		width: 310px;
+		background: white;
+		border-radius: 3px;
+
+
+		h1 {
+			margin: -20px -20px 21px;
+			line-height: 40px;
+			font-size: 15px;
+			font-weight: bold;
+			color: #555;
+			text-align: center;
+			text-shadow: 0 1px white;
+			background: #f3f3f3;
+			border-bottom: 1px solid #cfcfcf;
+			border-radius: 3px 3px 0 0;
+		}
+
+		p { margin: 20px 0 0; }
+
+		input[type=text], input[type=password] { width: 278px; }
+
+		p.remember_me {
+			float: left;
+			line-height: 31px;
+
+			label {
+				font-size: 12px;
+				color: #777;
+				cursor: pointer;
+			}
+
+			input {
+				position: relative;
+				bottom: 1px;
+				margin-right: 4px;
+				vertical-align: middle;
+			}
+		}
+
+		p.submit { text-align: right; }
+	}
+
+	.login-help {
+		margin: 20px 0;
+		font-size: 11px;
+		color: white;
+		text-align: center;
+		text-shadow: 0 1px #2a85a1;
+
+		a {
+			color: #cce7fa;
+			text-decoration: none;
+
+			&:hover { text-decoration: underline; }
+		}
+	}
+
+
+	input {
+		font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+		font-size: 14px;
+	}
+
+	input[type=text], input[type=password] {
+		margin: 5px;
+		padding: 0 10px;
+		width: 200px;
+		height: 34px;
+		color: #404040;
+		background: white;
+		border: 1px solid;
+		border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+		border-radius: 2px;
+		outline: 5px solid #eff4f7;
+
+	}
+
+	input[type=submit] {
+		padding: 0 18px;
+		height: 29px;
+		font-size: 12px;
+		font-weight: bold;
+		color: #527881;
+
+		background: #cde5ef;
+		border: 1px solid;
+		border-color: #b4ccce #b3c0c8 #9eb9c2;
+		border-radius: 16px;
+		outline: 0;
+
+	}
+
+
+input[type=search] {
+    width: 40%;
+    height: 40px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #555;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+input[type=search]:focus {
+    border: 3px solid red;
+}
+
+
+ul x1{
+list-style-type: none;
+margin=0;
+padding=0;
+overflow: hidden;
+background-color: green;
+}
+li x1{
+ float: left;
+}
+li a{
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover, .dropdown:hover{
+color: orange;
+}
+li.dropdown{
+display: inline-block;
+}
+ .dd-content{
+ display: none;
+ position: absolute;
+ background-color: black;
+ }
+ .dd-content a{
+ color: white;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ text-align: center;
+ }
+ .dd-content a:hover{
+ color: orange;
+ }
+ .dropdown:hover .dd-content {
+ display: block;
+ }
+
+/* #wrap {
+  width: 100%; /* Spans the width of the page *//*
+  height: 50px; 
+  margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+ /* z-index: 99; /* Makes sure that your menu remains on top of other page elements *//*
+  position: relative; 
+  background-color: black;
+  }
+
+*/
+
+.ordbox {
+    background-color: white;
+    width: 800px;
+    height: 250px;
+    padding: 25px;
+    border: 1px solid gray;
+    align-self: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inbox{
+	background-color:black;
+	width:500px;
+	height:100px;
+	border-radius: 5px;
+}
+
+.mainbox {
+    background-color: white;
+    width: 80%;
+    float: right;
+    height: 100%;
+    padding: 0px;
+    border: 1px white;
+    margin-right: -10px;
+    align-self: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: step-end height .2s; /* Safari 3.1 to 6.0 */
+    transition: ease-in-out height .2s;
+    z-index: -1;
+}
+
+.ordid {
+    border-radius: 25px;
+    background-color:#ededed;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 250px;
+    height: 20px; 
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+.container1 {
+		margin: 250px auto;
+		width: 640px;
+	}
+
+button {
+    background: #ededed url(cancel.png) no-repeat 5px center;
+    text-align: right;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 22px;
+    border-radius: 15px;
+     
+   
+}
+button:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text1{
+	font-family: Georgia, serif;
+}
+span.ord{
+	overflow: hidden;
+}
+
+
+
+/*                         My account */
+.account{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 1);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+   
+   
+}
+
+.overlay b{
+	padding: 1px;
+	font-size: 30px;
+	color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+.overlay img{
+	
+	margin-left: 12%;
+}
+
+.overlay a {
+    padding: 1px;
+    font-size: 36px;
+    color: #818181;
+    
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.acc{
+	float: left;
+	margin-left:-40%;
+
+	}
+
+
+a.acc{
+	color: #818181;
+	font-size: 36px;
+}
+a.acc:hover{
+	color: #f1f1f1;
+}
+
+#size{
+	width: 30vh;
+	height: 70vh;
+}
+
+
+/*********************** Myaccount^^^^^^^^^^^^ ************************************/
+
+
+
+
+

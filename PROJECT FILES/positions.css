@@ -1,0 +1,15 @@
+div.absolute {
+    position: static;
+    top: 50px;
+    left: 250px;
+    
+    height: 100px;
+    margin-left: 10%;
+    
+}
+div.box{
+    width: 450px;
+    border: 2px solid;
+    padding: 25px;
+    margin: 25px;
+}
